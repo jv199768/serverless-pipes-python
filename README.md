@@ -31,10 +31,10 @@ $ pip install -r requirements.txt
 At this point you can now synthesize the CloudFormation template for this code.
 
 ```
-$ cdk synth --all
+$ cdk synth
 ```
 
-or deploy using the following
+or deploy using the following (within the dentists' directory)
 
 ```
 $ cdk deploy --all
